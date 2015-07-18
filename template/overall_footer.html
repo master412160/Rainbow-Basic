@@ -1,0 +1,97 @@
+<!--
+/****   
+*      Copyright (C) 2015  Max Pen - All Rights Reserved.
+*      Contact: @max_pen1 (Twitter)
+*      About.me: about.me/maxpen
+*      Homepage: home.miscy.net
+*      Style: Rainbow Basic (free)
+*      
+*      -----------------GENERAL DISCLAIMER---------------------------------
+*      This Style like mentioned below is use at your own risk. 
+*      I take no responsibilty for the usage of Rainbow Basic.
+*      As such this theme is given to you for free.
+*      So use Rainbow Basic at your own risk.
+*                            
+*      I try my best to make my themes secure, up to standards and html5 valid with no errors.
+*      Still my theme can have the best code in the world and your forum can still get hacked.
+*      Having an insecure password is one way a hacker can get into your forum.
+*      Or having an outdated phpBB extension with an SQL vurnability can cause your forum to get hacked.
+*      Best you can do is always download the latest version of phpBB, 
+*      this theme and extensions or any other resources you may use like TapaTalk.                                               
+*      -----------------GENERAL DISCLAIMER---------------------------------
+*      
+*      This program is free software; you can redistribute it and/or
+*      modify it under the terms of the GNU General Public License
+*      as published by the Free Software Foundation; either version 2
+*      of the License, or (at your option) any later version.
+*
+*      This program is distributed in the hope that it will be useful,
+*      but WITHOUT ANY WARRANTY; without even the implied warranty of
+*      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*      GNU General Public License for more details.
+*
+*      You should have received a copy of the GNU General Public License
+*      along with this program; if not, write to the Free Software
+*      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+****/
+-->
+
+
+
+<!-- EVENT overall_footer_content_after -->
+	</div>
+
+<!-- EVENT overall_footer_page_body_after -->
+
+<div id="page-footer" role="contentinfo">
+	<!-- INCLUDE navbar_footer.html -->
+
+	<div class="copyright">
+		<!-- EVENT overall_footer_copyright_prepend -->
+		{CREDIT_LINE}
+		<!-- IF TRANSLATION_INFO --><br />{TRANSLATION_INFO}<!-- ENDIF -->
+		<!-- EVENT overall_footer_copyright_append -->
+		<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
+		<!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
+	</div>
+
+	<div id="darkenwrapper" data-ajax-error-title="{L_AJAX_ERROR_TITLE}" data-ajax-error-text="{L_AJAX_ERROR_TEXT}" data-ajax-error-text-abort="{L_AJAX_ERROR_TEXT_ABORT}" data-ajax-error-text-timeout="{L_AJAX_ERROR_TEXT_TIMEOUT}" data-ajax-error-text-parsererror="{L_AJAX_ERROR_TEXT_PARSERERROR}">
+		<div id="darken">&nbsp;</div>
+	</div>
+	<div id="loading_indicator"></div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="{L_ERROR}" data-l-timeout-processing-req="{L_TIMEOUT_PROCESSING_REQ}">
+		<a href="#" class="alert_close"></a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close"></a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
+</div>
+
+<script type="text/javascript" src="{T_JQUERY_LINK}"></script>
+<!-- IF S_ALLOW_CDN --><script type="text/javascript">window.jQuery || document.write(unescape('%3Cscript src="{T_ASSETS_PATH}/javascript/jquery.min.js?assets_version={T_ASSETS_VERSION}" type="text/javascript"%3E%3C/script%3E'));</script><!-- ENDIF -->
+<script type="text/javascript" src="{T_ASSETS_PATH}/javascript/core.js?assets_version={T_ASSETS_VERSION}"></script>
+<!-- INCLUDEJS forum_fn.js -->
+<!-- INCLUDEJS ajax.js -->
+
+<!-- EVENT overall_footer_after -->
+
+<!-- IF S_PLUPLOAD --><!-- INCLUDE plupload.html --><!-- ENDIF -->
+<script src="{T_JQUERY_LINK}"></script>
+<!-- IF S_ALLOW_CDN --><script>window.jQuery || document.write(unescape('%3Cscript src="{T_ASSETS_PATH}/javascript/jquery.min.js?assets_version={T_ASSETS_VERSION}" type="text/javascript"%3E%3C/script%3E'));</script><!-- ENDIF -->
+
+{$SCRIPTS}
+
+<!-- EVENT overall_footer_body_after -->
+
+</body>
+</html>

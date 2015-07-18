@@ -1,0 +1,73 @@
+<!--/****   
+*      Copyright (C) 2015  Max Pen - All Rights Reserved.
+*      Contact: @max_pen1 (Twitter)
+*      About.me: about.me/maxpen
+*      Homepage: home.miscy.net
+*      Style: Rainbow Basic (free)
+*      
+*      -----------------GENERAL DISCLAIMER---------------------------------
+*      This Style like mentioned below is use at your own risk. 
+*      I take no responsibilty for the usage of Rainbow Basic.
+*      As such this theme is given to you for free.
+*      So use Rainbow Basic at your own risk.
+*                            
+*      I try my best to make my themes secure, up to standards and html5 valid with no errors.
+*      Still my theme can have the best code in the world and your forum can still get hacked.
+*      Having an insecure password is one way a hacker can get into your forum.
+*      Or having an outdated phpBB extension with an SQL vurnability can cause your forum to get hacked.
+*      Best you can do is always download the latest version of phpBB, 
+*      this theme and extensions or any other resources you may use like TapaTalk.                                               
+*      -----------------GENERAL DISCLAIMER---------------------------------
+*      
+*      This program is free software; you can redistribute it and/or
+*      modify it under the terms of the GNU General Public License
+*      as published by the Free Software Foundation; either version 2
+*      of the License, or (at your option) any later version.
+*
+*      This program is distributed in the hope that it will be useful,
+*      but WITHOUT ANY WARRANTY; without even the implied warranty of
+*      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*      GNU General Public License for more details.
+*
+*      You should have received a copy of the GNU General Public License
+*      along with this program; if not, write to the Free Software
+*      Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+****/-->
+This is to keep track of build versions and release versions of Rainbow Basic and what has been done to it. :) 
+
+current release version: 
+Current build: 
+Last Commit: 
+/////////////////////////
+Version system explained:
+
+first number is the release version, when a series of builds has been completed; we'll summarize that in a release. eg: version 1.0, version 2.0. 
+This is changed when major feature or design changes are added or a series of builds (7)* is complete. 
+
+second number changes when a series of changes has been done worth noting down in here. So a work log is created in due time. 
+When at least 7 worthwhile things have been added/removed the build number goes up.
+
+third number changes when a commit is done to the rainbow repository which is private at the moment. 
+(( Watch this space for more info in the future about the repo! ))
+
+-------
+* When 7 builds are done a new release is put in motion. A release is the theme being put online to be used by the end user.
+This changelog has just been started in March so allot of changes that happened before for the rainbow theme are not covered here.
+-------
+
+/// CHANGELOG /// (Oldest last, newest first)
+
+***** FOR July 2015 START *****
+
+// Build Package 0.1.0
+-- Finished on: ()
+
+1) Created structure of the Rainbow Basic theme, and the overall framework on what I plan to build it. (18)
+2)
+3)
+4)
+5)
+6)
+7)
+
+***** FOR July 2015 END *****
